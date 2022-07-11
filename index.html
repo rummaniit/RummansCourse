@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inter:wght@700&family=Lobster&family=M+PLUS+2&family=Montserrat&family=Nunito&family=Oswald:wght@500;700&family=Poppins&family=Praise&family=Satisfy&family=Shippori+Antique&family=Source+Sans+Pro:wght@700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <title>Course Website</title>
+    <style>
+        * {
+
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            height: fit-content;
+            color: white;
+            padding: 3%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 25px;
+            color: white;
+            font-size: 22px;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        .btn {
+            border: none;
+            padding: 10px 35px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 10px;
+            width: 250px;
+        }
+
+        .btn:hover {
+            background-color: green;
+            color: white;
+        }
+
+        .top-banner {
+            padding: 2%;
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            align-items: center;
+            background-image: url("images/christopher-gower-m_HRfLhgABo-unsplash.jpg"), linear-gradient(360deg, black, transparent);
+            background-blend-mode: overlay;
+            background-size: cover;
+        }
+
+        .top-banner-des {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .top-banner-des p {
+            color: white;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .white {
+            color: white;
+        }
+
+        .row-one {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 15px;
+        }
+
+        .succes-stories,
+        .footer {
+            font-family: 'Satisfy', cursive;
+        }
+
+        .succes-stories img {
+            width: 80%;
+        }
+
+        .common {
+            width: 50%;
+            padding: 2%;
+        }
+
+        .row-one-right {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .second-section,
+        .third-section h1,
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        hr {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .eands {
+            margin: 0 auto;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            box-shadow: 10px 10px 40px green;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .third-section {
+            margin-top: 60px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            line-height: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="header">
+        <div>
+            <h1>Rumman's Courses</h1>
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="">Home</a> </li>
+                <li><a href="">About</a> </li>
+                <li><a href="">Batches</a> </li>
+            </ul>
+        </div>
+        <div>
+            <button class="btn">Enroll</button>
+        </div>
+    </nav>
+
+    <section class="top-banner">
+        <div class="top-banner-des">
+            <h1 class="white">Welcome to</h1>
+            <h1 class="green">Rumman's Courses</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe modi officiis, temporibus dolorem
+                fugiat consectetur nemo quibusdam perspiciatis, recusandae obcaecati, placeat laboriosam perferendis
+                quisquam.</p>
+            <button class="btn">Enroll Now</button>
+        </div>
+    </section>
+
+    <section class="second-section">
+        <h1>Success <span class="green">Stories</span></h1>
+        <hr>
+        <div class="succes-stories">
+            <div class="row-one">
+                <div class="row-one-left common">
+                    <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                </div>
+                <div class="row-one-right common">
+                    <h1>Ponti Rahman</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga! Lorem ipsum dolor sit
+                        amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit culpa, natus delectus quos
+                        corporis fugiat vitae, animi ullam dolor tempore soluta consectetur ipsa laudantium repudiandae
+                        excepturi deserunt enim in eaque. </h4>
+                </div>
+            </div>
+
+            <div class="row-one">
+                <div class="row-one-right common">
+                    <h1>Anika Rahman</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga! Lorem ipsum dolor sit
+                        amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit culpa, natus delectus quos
+                        corporis fugiat vitae, animi ullam dolor tempore soluta consectetur ipsa laudantium repudiandae
+                        excepturi deserunt enim in eaque. </h4>
+                </div>
+                <div class="row-one-left common">
+                    <img src="images/kirill-balobanov-Ef3AOkt6hHg-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="row-one">
+                <div class="row-one-left common">
+                    <img src="images/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg" alt="">
+                </div>
+                <div class="row-one-right common">
+                    <h1>Jonas Rahman</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga! Lorem ipsum dolor sit
+                        amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit culpa, natus delectus quos
+                        corporis fugiat vitae, animi ullam dolor tempore soluta consectetur ipsa laudantium repudiandae
+                        excepturi deserunt enim in eaque. </h4>
+                </div>
+            </div>
+            <div class="row-one">
+                <div class="row-one-right common">
+                    <h1>Salome Rahman</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga! Lorem ipsum dolor sit
+                        amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit culpa, natus delectus quos
+                        corporis fugiat vitae, animi ullam dolor tempore soluta consectetur ipsa laudantium repudiandae
+                        excepturi deserunt enim in eaque. </h4>
+                </div>
+                <div class="row-one-left common">
+                    <img src="images/salome-guruli-6GgCyNnF6Zs-unsplash.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <h1>Total Enrollment & <br><span class="green">Success rate</span></h1>
+        <hr>
+        <div class="eands">
+            <div class="common">
+                <h1>Total Enrollment</h1>
+                <h2>5.5k</h2>
+            </div>
+            <div class="common">
+                <h1>Success Rate</h1>
+                <h2>80%</h2>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h1><span class="green">Rumman's</span> Course</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quam!</p>
+    </section>
+</body>
+
+</html>
