@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header>div>h1 {
+            font-size: 45px;
+        }
+
+        .about-us {
+            display: flex;
+            justify-content: space-around;
+            padding: 2%;
+        }
+
+        .about-us>div {
+            width: 50%;
+            padding: 20px 40px;
+            margin-left: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 5px 10px 50px green;
+        }
+
+        .about-us img {
+            width: 50%;
+        }
+
+        .about>h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            height: fit-content;
+            color: white;
+            padding: 3%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .drop-down {
+            display: none;
+            color: white;
+        }
+
+        .navbar>li:hover .drop-down {
+            display: block;
+            position: absolute;
+            background-color: black;
+            padding: 1px 30px;
+            color: green;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 25px;
+            color: white;
+            font-size: 22px;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        .btn {
+            border: none;
+            padding: 10px 35px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 10px;
+            width: 250px;
+        }
+
+        .btn:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="header">
+        <div>
+            <h1>Rumman's Courses</h1>
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a> </li>
+                <li><a href="./about.html">About</a> </li>
+                <li><a href="">Batches
+                        <ul class="drop-down">
+                            <li>Batch-1</li>
+                            <li>Batch-2</li>
+                            <li>Batch-3</li>
+                            <li>Batch-4</li>
+                            <li>Batch-5</li>
+                            <li>Batch-6</li>
+                        </ul>
+                    </a> </li>
+            </ul>
+        </div>
+        <div>
+            <button class="btn">Enroll</button>
+        </div>
+    </nav>
+    <div class="about">
+        <h1>About <span class="green">Our Team</span></h1>
+        <div class="about-us">
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Exucutive Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Technical Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+        </div>
+        <div class="about-us">
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Exucutive Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Technical Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+        </div>
+        <div class="about-us">
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Exucutive Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+            <div>
+                <img src="images/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+                <h1>Chief Technical Officer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, reprehenderit aliquam esse
+                    ducimus ipsam sequi a dolorem tempora. Doloremque?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

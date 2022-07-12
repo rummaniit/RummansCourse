@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            height: fit-content;
+            color: white;
+            padding: 3%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .drop-down {
+            display: none;
+            color: white;
+        }
+
+        .navbar>li:hover .drop-down {
+            display: block;
+            position: absolute;
+            background-color: black;
+            padding: 1px 30px;
+            color: green;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 25px;
+            color: white;
+            font-size: 22px;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        .btn {
+            border: none;
+            padding: 10px 35px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 10px;
+            width: 250px;
+        }
+
+        .btn:hover {
+            background-color: green;
+            color: white;
+        }
+
+        .enroll {
+            margin-top: 50px;
+        }
+    </style>
+    <title>Enroll Page</title>
+</head>
+
+<body>
+    <nav class="header">
+        <div>
+            <h1>Rumman's Courses</h1>
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a> </li>
+                <li><a href="./about.html">About</a> </li>
+                <li><a href="./enroll.html">Batches
+                        <ul class="drop-down">
+                            <li>Batch-1</li>
+                            <li>Batch-2</li>
+                            <li>Batch-3</li>
+                            <li>Batch-4</li>
+                            <li>Batch-5</li>
+                            <li>Batch-6</li>
+                        </ul>
+                    </a> </li>
+            </ul>
+        </div>
+        <div>
+            <button class="btn">Enroll</button>
+        </div>
+    </nav>
+    <section class="enroll">
+        <form action="">
+            <fieldset>
+                <legend>Registration</legend>
+                <p>Name: <input type="text" name="" placeholder="Enter your name" id=""></p>
+                <p>Email: <input type="text" name="" placeholder="Enter your Email" id=""></p>
+                <p>Address: <input type="text" name="" placeholder="Enter your Address" id=""></p>
+                <p>Phone: <input type="text" name="" placeholder="Enter your Phone" id=""></p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="others">Others
+                    </label>
+                </fieldset>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
